@@ -100,7 +100,7 @@ const Projects = () => {
               leverages a combination of modern web technologies to offer a
               seamless and visually appealing user experience.
             </p>
-            <p>Project Status: Completed</p>
+            <p>Project Status: Unfinished</p>
             <p className="mt-5">Technologies Used</p>
             <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
               <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">

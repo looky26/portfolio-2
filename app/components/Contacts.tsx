@@ -26,7 +26,7 @@ const Contacts = () => {
             className="space-y-8 max-w-7xl mx-auto"
           >
             <div>
-              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              <label className="block mb-2 text-sm font-medium text-white">
                 Your email
               </label>
               <input
@@ -40,7 +40,7 @@ const Contacts = () => {
               <input type="hidden" name="_next" value="http://localhost:3000"></input>
             </div>
             <div>
-              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              <label className="block mb-2 text-sm font-medium text-white">
                 Subject
               </label>
               <input
@@ -53,7 +53,7 @@ const Contacts = () => {
               />
             </div>
             <div className="sm:col-span-2">
-              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
+              <label className="block mb-2 text-sm font-medium text-white">
                 Your message
               </label>
               <textarea
