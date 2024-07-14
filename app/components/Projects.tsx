@@ -43,6 +43,7 @@ const Projects = () => {
               technologies and tools to provide a smooth and efficient shopping
               experience.
             </p>
+            <p>Project Status: Ongoing</p>
             <p className="mt-5">Technologies Used</p>
             <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
               <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
@@ -75,18 +76,22 @@ const Projects = () => {
           </div>
           {/* right */}
           <div className="flex justify-center lg:justify-start mb-5 lg:m-0">
-            <img className="w-full lg:w-[528px]" src="./techstore.png" alt="" />
+            <img
+              className="w-full lg:w-[528px] rounded-xl"
+              src="./techstore.png"
+              alt=""
+            />
           </div>
         </motion.div>
 
         {/* Project 2 */}
         <motion.div
-        
-        initial={{ opacity: 0, scale: 0.5 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg">
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg"
+        >
           {/* left */}
           <div className="text-center lg:text-left">
             <h1 className="text-[20px] font-bold">Artlines</h1>
@@ -95,6 +100,7 @@ const Projects = () => {
               leverages a combination of modern web technologies to offer a
               seamless and visually appealing user experience.
             </p>
+            <p>Project Status: Completed</p>
             <p className="mt-5">Technologies Used</p>
             <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
               <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
@@ -130,7 +136,7 @@ const Projects = () => {
           {/* right */}
           <div className="flex justify-center lg:justify-start mb-5 lg:m-0">
             <img
-              className="w-full lg:w-[528px]"
+              className="w-full lg:w-[528px] rounded-xl"
               src="./artlinesimage.png"
               alt=""
             />
@@ -138,12 +144,13 @@ const Projects = () => {
         </motion.div>
 
         {/* Project 3 */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-        className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg">
+          className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg"
+        >
           {/* left */}
           <div className="text-center lg:text-left">
             <h1 className="text-[20px] font-bold">Osaps</h1>
@@ -153,6 +160,7 @@ const Projects = () => {
               Cebu, Philippines, from July 4-6, 2024. I worked here as a
               freelancer to build the front end part of the website.
             </p>
+            <p>Project Status: Completed</p>
             <p className="mt-5">Technologies Used</p>
             <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
               <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
@@ -182,7 +190,123 @@ const Projects = () => {
           </div>
           {/* right */}
           <div className="flex justify-center lg:justify-start mb-5 lg:m-0">
-            <img className="w-full lg:w-[528px]" src="./osaps.png" alt="" />
+            <img
+              className="w-full lg:w-[528px] rounded-xl"
+              src="./osaps.png"
+              alt=""
+            />
+          </div>
+        </motion.div>
+
+        {/* Project 4 */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg"
+        >
+          {/* left */}
+          <div className="text-center lg:text-left">
+            <h1 className="text-[20px] font-bold">Finance Landing Page</h1>
+            <p className="lg:w-[512px] w-full">
+              The primary objective of this project is to practice my CSS
+              styling by converting a landing page design from a Figma file into
+              a functional webpage. This project aims to enhance my skills in
+              CSS, HTML, and potentially JavaScript, ensuring the final product
+              is a pixel-perfect representation of the Figma design.
+            </p>
+            <p>Project Status: Completed</p>
+            <p className="mt-5">Technologies Used</p>
+            <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Nextjs
+              </p>
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Figma
+              </p>
+
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Tailwind Css
+              </p>
+            </div>
+            <div className="space-x-2 mt-5">
+              <button className="bg-gradient-to-b from-[#F8E4C4] to-[#928673] px-5 py-2 rounded-lg">
+                View Code
+              </button>
+              <Link
+                href={"https://nextjs-finance-landing-page.vercel.app/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border hover:bg-amber-700 border-[#F8E4C4] px-5 py-[6.5px] rounded-lg"
+              >
+                Live Demo
+              </Link>
+            </div>
+          </div>
+          {/* right */}
+          <div className="flex justify-center lg:justify-start mb-5 lg:m-0">
+            <img
+              className="w-full lg:w-[528px] rounded-xl"
+              src="./financelandingpage.png"
+              alt=""
+            />
+          </div>
+        </motion.div>
+
+        {/* Project 5 */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="hover:bg-[#263D4B] bg-[#172530] flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-10 p-5 rounded-lg"
+        >
+          {/* left */}
+          <div className="text-center lg:text-left">
+            <h1 className="text-[20px] font-bold">Manage Landing Page</h1>
+            <p className="lg:w-[512px] w-full">
+              The goal of this project is to create a professional and
+              functional landing page for a management service/product. This
+              project will focus on utilizing best practices in web design and
+              development to ensure the landing page is engaging, informative,
+              and optimized for conversions
+            </p>
+            <p>Project Status: Completed</p>
+            <p className="mt-5">Technologies Used</p>
+            <div className="flex items-center justify-center lg:justify-start flex-wrap gap-2 mt-2 w-full lg:w-[512px]">
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Nextjs
+              </p>
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Figma
+              </p>
+
+              <p className="bg-[#E5A01D] px-10 py-2 rounded-full w-fit">
+                Tailwind Css
+              </p>
+            </div>
+            <div className="space-x-2 mt-5">
+              <button className="bg-gradient-to-b from-[#F8E4C4] to-[#928673] px-5 py-2 rounded-lg">
+                View Code
+              </button>
+              <Link
+                href={"https://nextjs-manage-landing-page.vercel.app/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border hover:bg-amber-700 border-[#F8E4C4] px-5 py-[6.5px] rounded-lg"
+              >
+                Live Demo
+              </Link>
+            </div>
+          </div>
+          {/* right */}
+          <div className="flex justify-center lg:justify-start mb-5 lg:m-0">
+            <img
+              className="w-full lg:w-[528px] rounded-xl"
+              src="./manage.png"
+              alt=""
+            />
           </div>
         </motion.div>
       </div>
